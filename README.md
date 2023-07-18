@@ -24,10 +24,15 @@ Clone o repositório:
 git clone https://github.com/wag-sv/ignite-shop.git
 ```
 
-Instale as dependências:
+Acesse o diretório do repositório clonado:
 
 ```
 cd ignite-shop
+```
+
+Instale as dependências:
+
+```
 npm install
 ```
 
@@ -42,9 +47,17 @@ npm run dev
 Abra o navegador e acesse `http://localhost:3000` para ver a aplicação em execução.
 
 
-Utilize o seguinte número de cartão de crédito para simular uma compra com sucesso: 4242 4242 4242 4242.
+Utilize o seguinte número de cartão de crédito para simular uma compra com sucesso:
 
-Utilize o seguinte número de cartão de crédito para simular uma compra com falha no pagamento: 4000 0000 0000 9995.
+```
+4242 4242 4242 4242
+```
+
+Utilize o seguinte número de cartão de crédito para simular uma compra com falha no pagamento: 
+
+```
+4000 0000 0000 9995
+```
 
 ## Contribuição
 
