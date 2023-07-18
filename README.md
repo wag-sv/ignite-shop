@@ -1,38 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Ignite Shop 🛍️
 
-## Getting Started
+## Descrição
 
-First, run the development server:
+Ignite Shop é uma aplicação de simulação de loja de camisetas desenvolvida com o framework Next.js. Ela permite escolher uma camisetas dentre as opções e realizar o pagamento utilizando a integração com Stripe.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+Este projeto foi desenvolvido como parte da validação do aprendizado das seguintes tecnologias:
+
+- **Next.js**: Framework React de renderização do lado do servidor (SSR) e construção de aplicativos web.
+- **Typescript**: Linguagem de programação que adiciona tipos estáticos ao JavaScript.
+- **Stitches**: Biblioteca CSS-in-JS para estilização com uma sintaxe elegante e dinâmica.
+- **Stripe**: Plataforma de pagamento online que facilita o processamento de transações seguras.
+
+## Pré-requisitos
+
+- Node.js: versão 16 ou superior.
+- npm: versão 8 ou superior.
+
+## Instalação
+
+Clone o repositório:
+
+```
+git clone https://github.com/wag-sv/ignite-shop.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Instale as dependências:
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```
+cd ignite-shop
+npm install
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Uso
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Inicie o servidor de desenvolvimento:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```
+npm run dev
+```
 
-## Learn More
+Abra o navegador e acesse `http://localhost:3000` para ver a aplicação em execução.
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Utilize o seguinte número de cartão de crédito para simular uma compra com sucesso: 4242 4242 4242 4242.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Utilize o seguinte número de cartão de crédito para simular uma compra com falha no pagamento: 4000 0000 0000 9995.
 
-## Deploy on Vercel
+## Contribuição
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Contribuições são bem-vindas! Se você tiver alguma sugestão, abra uma issue ou envie um pull request.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Licença
+
+Este projeto está licenciado sob a [MIT License](https://opensource.org/licenses/MIT).
+
+🚀 Divirta-se explorando a Ignite Shop e boas compras! 🛒
